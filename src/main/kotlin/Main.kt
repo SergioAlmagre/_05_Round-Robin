@@ -17,6 +17,7 @@ fun main(args: Array<String>) {
                 i9.addFirst(pro)
                 println("\nAñadido $pro desde la memoria RAM")
             }
+            println("Ahora hay un una linea para procesos")
 // SI HAY PROCESOS EN EL PROCESADOR LOS PROCESA
             if (!i9.isEmpty()) {
                 var procesosSimultanos = i9.totalProcesos()
